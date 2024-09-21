@@ -7,7 +7,7 @@ console.log(add)
 //type of returns type of the variable
 console.log(typeof(add))
 
-let c = "Rahul Shetty"
+let c = "Rahul Shetty" 
 console.log(c)
 //types of Datatypes are
 
