@@ -54,6 +54,7 @@ function findsum(arr) {
 console.log(findsum(arr));
 
 //Reduce funciton
+//Reduce funciton is used to get single value or reduced value as result.
 const reducedSum = arr.reduce(function (acc, curr) {
     acc = acc + curr;
     return acc;
