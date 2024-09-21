@@ -10,7 +10,7 @@ console.log(marks[2]) //30
 marks[3] = 10 //
 console.log(marks)// 10,20,30,10,50
 console.log(marks.length) //gives length of the array
-marks.push(60) //appends to the end of array
+marks.push(60) //appends new element to the end of array
 console.log(marks)
 marks.pop() //deletes the last entry form the array
 console.log(marks)

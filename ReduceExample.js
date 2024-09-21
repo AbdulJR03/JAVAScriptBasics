@@ -7,7 +7,7 @@ let totalmarks= marks.reduce((sum,mark)=>sum+mark, 0)
 console.log(totalmarks)
 
 var Mulof2= []
-
+ 
 for (i=0; i<marks.length ; i++){
 
     if(marks[i]%2==0){
@@ -15,9 +15,6 @@ for (i=0; i<marks.length ; i++){
         Mulof2.push(marks[i])
 
     }
-    
-    
-
 }
 console.log(Mulof2)
 
