@@ -59,7 +59,17 @@ for(i=0; i<scores.length ; i++){
 }
 console.log(evenscores)
 
+let evenscores2 = scores.filter((score)=>score%2==0)
+console.log(evenscores)
 //added new cmment to check git commit
+const multipyEvenscoreswith3 = evenscores.map((x)=>x*3)
+console.log(multipyEvenscoreswith3)
+//sum multiplied array values
+let TotalVal= multipyEvenscoreswith3.reduce((sum,val)=>sum+val, 0)
+console.log(TotalVal)
 
-let m = 'newmarks'
-console.log(m)
+//write in chaining all 3 functions together
+
+let scores1 =[10,12,13,14,16]
+let singlefunctionsum= scores1.filter(score=>score%2==0).map(score=>score*3).reduce((sum,acc)=>sum+acc,0);
+console.log(singlefunctionsum)

@@ -18,5 +18,5 @@ for (i=0; i<marks.length ; i++){
 }
 console.log(Mulof2)
 
-let evenscoresfilter=marks.filter(mark=>mark%2==0)
+let evenscoresfilter=marks.filter((mark)=>mark%2==0)
 console.log(evenscoresfilter)
